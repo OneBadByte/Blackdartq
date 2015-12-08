@@ -10,3 +10,4 @@ sleep 2
 clear
 git push origin master
 git log
+echo "Press q to exit: " 
