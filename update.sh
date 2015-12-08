@@ -7,5 +7,5 @@ read commitText;
 git commit -m " $commitText "
 git status
 sleep 2
-git -u origin master
+git push origin master
 git log
