@@ -51,7 +51,8 @@ button{
     width: 15%;
     height: 40px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
+    font-family: cursive;
     background: radial-gradient(circle, red, darkred);
     color: white;
     text-shadow: 4px 4px black, 2px 2px black;
@@ -59,6 +60,12 @@ button{
     border-radius: 10%;
     margin-left: 1%;
     margin-top: 2px;
+
+
+}
+
+.buttons:hover{
+    background: radial-gradient(circle, black, darkred);
 
 }
 
@@ -84,15 +91,8 @@ footer{
     background-color: darkred;
 }
 
-.footerIcons{
-    margin-top: 5px;
-    width: 8%;
-    height:50px;
-    text-align: center;
-    background-color: black;
-    color:whitesmoke;
-    display: inline-block;
-
-
+.footerIcon{
+    width:80px;
+    height:80px;
 
 }
