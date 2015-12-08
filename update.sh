@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 echo "started"
 git add *
 echo "Enter commit text: "
