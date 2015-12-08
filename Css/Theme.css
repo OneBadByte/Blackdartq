@@ -21,6 +21,71 @@ body {
 
 }
 
+
+#section1{
+    display:inline-block;
+    width: 79%;
+    height: 300px;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: lightgrey;
+    border-style: solid;
+}
+
+#section2{
+    display:inline-block;
+    width: 20%;
+    height: 1000px;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: whitesmoke;
+    border-style: solid;
+    float:right;
+
+}
+
+#section3{
+    margin-left:2px;
+    margin-bottom:5px;
+    display:inline-block;
+    width: 25%;
+    height:720px;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: darkgray;
+    border-style: solid;
+
+}
+
+#section4{
+    margin-left:1px;
+    margin-bottom:5px;
+    display:inline-block;
+    width: 26%;
+    height:720px;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: darkgray;
+    border-style: solid;
+
+
+}
+#section5 {
+    margin-bottom:5px;
+    display: inline-block;
+    width: 26%;
+    height: 720px;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: darkgray;
+    border-style: solid;
+}
+
 /* ---------------------------------------------------------- */
 
 /* -------------------- navbar and button ------------------- */
