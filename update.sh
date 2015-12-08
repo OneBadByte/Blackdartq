@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "started"
-git add -f *
+git add *
 echo "Enter commit text: "
 read commitText;
 git commit -m " $commitText "
