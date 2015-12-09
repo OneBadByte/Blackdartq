@@ -9,7 +9,7 @@ html {
 #Body{
 
     width: 80%;
-    height: 1000px;
+    height: 1015px;
     border-style: solid;
     background-color: whitesmoke;
     margin-left:9%;
@@ -21,6 +21,14 @@ body {
 
 }
 
+section{
+    margin:0;
+    margin-left:3px;
+    padding: 0;
+
+
+
+}
 
 #section1{
     display:inline-block;
@@ -34,9 +42,10 @@ body {
 }
 
 #section2{
+    margin-right:2px;
     display:inline-block;
-    width: 20%;
-    height: 1000px;
+    width: 19%;
+    height: 99%;
     font-family: cursive;
     font-size: 1em;
     color: black;
@@ -47,11 +56,11 @@ body {
 }
 
 #section3{
-    margin-left:2px;
-    margin-bottom:5px;
+    margin-left: 6px;
+    margin-bottom: 5px;
     display:inline-block;
     width: 25%;
-    height:720px;
+    height:68%;
     font-family: cursive;
     font-size: 1em;
     color: black;
@@ -64,8 +73,8 @@ body {
     margin-left:1px;
     margin-bottom:5px;
     display:inline-block;
-    width: 26%;
-    height:720px;
+    width: 25%;
+    height:68%;
     font-family: cursive;
     font-size: 1em;
     color: black;
@@ -78,7 +87,7 @@ body {
     margin-bottom:5px;
     display: inline-block;
     width: 26%;
-    height: 720px;
+    height:68%;
     font-family: cursive;
     font-size: 1em;
     color: black;
@@ -154,6 +163,7 @@ footer{
     width: 80%;
     height:80px;
     background-color: darkred;
+    border: solid black;
 }
 
 .footerIcon{
