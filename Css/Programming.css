@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Bitstream Charter";
+
+
+}
+
+#section1{
+    word-wrap: break-word;
+    display:inline-block;
+    width: 99%;
+    height: 50%;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: lightgrey;
+    border-style: solid;
+}
+
+#section2{
+    word-wrap: break-word;
+    margin-left: .5%;
+    margin-bottom: .2%;
+    display:inline-block;
+    width: 48.5%;
+    height:48%;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: darkgray;
+    border-style: solid;
+    float:left;
+
+
+}
+
+#section3{
+    word-wrap: break-word;
+    margin-left: .5%;
+    margin-bottom: .2%;
+    display:inline-block;
+    width: 48.5%;
+    height:48%;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    background-color: darkgray;
+    border-style: solid;
+
+}
