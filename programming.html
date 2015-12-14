@@ -8,14 +8,35 @@
 </head>
 <body>
 <!-- ------------------------------ navbar and Buttons ------------------ -->
-<navbar>
-    <a href="http://localhost:63342/FinalProject/about.html"><button class="buttons" id="centerButtons">About Me</button></a>
-    <a href="http://localhost:63342/FinalProject/drones.html"><button class="buttons">Drones</button></a>
-    <a href="http://localhost:63342/FinalProject/index.html"><button class="buttons">Home</button></a>
-    <a href="http://localhost:63342/FinalProject/programming.html"><button class="buttons">Programming</button></a>
-    <a href="http://localhost:63342/FinalProject/hacking.html"><button class="buttons">Hacking</button></a>
+<ul id="navBar">
+    <a href="http://localhost:63342/FinalProject/about.html"><li  class="buttons" >About Me
+        <ul>
+            <a href="http://localhost:63342/FinalProject/work.html"><li class="dropDownMenu">Work</li></a>
+            <a href="http://localhost:63342/FinalProject/school.html"><li class="dropDownMenu" id="dropDownItem" >School</li></a>
+
+        </ul>
+    </li ></a>
+
+    <li class="buttons">Drones
+        <ul>
+            <a href="http://localhost:63342/FinalProject/raspberrypi.html"><li class="dropDownMenu">Raspberry pi</li></a>
+
+        </ul>
+    </li>
+
+    <a href="http://localhost:63342/FinalProject/index.html"><li class="buttons" id="navBarItem3">Home</li></a>
+
+    <a href="http://localhost:63342/FinalProject/programming.html"><li class="buttons" id="navBarItem4">Programming
+        <ul>
+            <a href="http://localhost:63342/FinalProject/futurelanguages.html"><li class="dropDownMenu">Future Languages</li></a>
+
+        </ul>
+    </li></a>
+
+    <a href="http://localhost:63342/FinalProject/hacking.html"><li class="buttons" id="navBarItem5">Hacking</li></a>
+
     <h1 id="headerText">BLACKDARTQ</h1>
-</navbar>
+</ul>
 <!-- ------------------------------ body -------------------------------- -->
 <div id="Body">
     <section id="section1">
@@ -27,12 +48,12 @@
                 fell in love with programming ever since learning just the basics of C++.</p>
 
             <li>Python:  </li>
-            <p>Python was the first langauge that I learned in college in a intro to programming class. For a final project
-                My team(classmates) and I decided to try and recreate "The Orgeon Trail" with our own easter eggs and funny deaths
+            <p>Python was the first language that I learned in college in a intro to programming class. For a final project
+                My team(classmates) and I decided to try and recreate "The Oregon Trail" with our own easter eggs and funny deaths
                 that could befall the player. Python is probably one of my favorite languages to program in.</p>
 
             <li>Java: </li>
-            <p>Java is the second langugae I learned in college and I'm still tryign to get everything down. its really strange
+            <p>Java is the second langugae I learned in college and I'm still trying to get everything down. its really strange
                 programming in such a heavy class based language, but I enjoy it all the same.</p>
 
         </ul>
@@ -46,10 +67,11 @@
             <p>Back in highschool I took a few webdesign classes and learned most of the basics there, currently I am taking
                 a webdesign class and creating this very website during the downtime I get. I enjoy HTML and CSS because its so simple
                 compared to the languages that I usually like to program in. it really lets me create what I want and work with
-                the Design of my site thats bound to change.</p>
+                the Design of my site that's bound to change.</p>
 
             <li>Javascript: </li>
-            <p>Javascript reminds me of Python  and is really cool to use. I'm still learning the basics from <a href="http://codeacademy.com">
+            <p>Javascript reminds me of Python because of how easy it is to use, and how powerful it is.
+                I'm still learning the basics from <a href="http://codeacademy.com">
                 Code Academy</a> which I really enjoy their example.</p>
 
         </ul>

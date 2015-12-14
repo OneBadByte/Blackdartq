@@ -1,0 +1,15 @@
+#section1{
+    display:inline-block;
+    width: 99%;
+    height: 98%;
+    font-family: cursive;
+    font-size: 3em;
+    color: black;
+    background-color: lightgrey;
+    border-style: solid;
+    margin-left: 3px;
+    margin-top: 3px;
+    text-align: center;
+
+}
+

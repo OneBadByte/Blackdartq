@@ -1,19 +1,32 @@
+h1{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+
+}
+
+
 #section1{
     display:inline-block;
-    width: 79%;
-    height: 29%;
+    width: 99%;
+    height: 25%;
     font-family: cursive;
     font-size: 1em;
     color: black;
     background-color: lightgrey;
     border-style: solid;
+    margin-left:2px;
+    margin-top:2px;
 }
 
 #section2{
     margin-right:.2%;
+    margin-top: 3px;
     display:inline-block;
-    width: 19%;
-    height: 99%;
+    width: 99%;
+    height: 10%;
     font-family: cursive;
     font-size: 1em;
     color: black;
@@ -25,40 +38,14 @@
 
 #section3{
     margin-left: .5%;
-    margin-bottom: .2%;
+    margin-top: 3px;
     display:inline-block;
-    width: 25%;
-    height:68%;
+    width: 98.4%;
+    height:60%;
     font-family: cursive;
     font-size: 1em;
     color: black;
     background-color: darkgray;
     border-style: solid;
 
-}
-
-#section4{
-
-    margin-bottom: .2%;
-    display:inline-block;
-    width: 25%;
-    height:68%;
-    font-family: cursive;
-    font-size: 1em;
-    color: black;
-    background-color: darkgray;
-    border-style: solid;
-
-
-}
-#section5 {
-    margin-bottom: .2%;
-    display: inline-block;
-    width: 26%;
-    height:68%;
-    font-family: cursive;
-    font-size: 1em;
-    color: black;
-    background-color: darkgray;
-    border-style: solid;
 }

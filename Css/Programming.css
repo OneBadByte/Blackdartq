@@ -7,6 +7,8 @@ h1{
 }
 
 #section1{
+    margin-left: 1px;
+    margin-top: 1px;
     word-wrap: break-word;
     display:inline-block;
     width: 99%;
@@ -19,6 +21,7 @@ h1{
 }
 
 #section2{
+    margin-top: 1px;
     word-wrap: break-word;
     margin-left: .5%;
     margin-bottom: .2%;
@@ -36,6 +39,7 @@ h1{
 }
 
 #section3{
+    margin-top: 1px;
     word-wrap: break-word;
     margin-left: .5%;
     margin-bottom: .2%;

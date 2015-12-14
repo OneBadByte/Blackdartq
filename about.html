@@ -8,41 +8,68 @@
 </head>
 <body>
 <!-- ------------------------------ navbar and Buttons ------------------ -->
-<navbar>
-    <a href="http://localhost:63342/FinalProject/about.html"><button class="buttons" id="centerButtons">About Me</button></a>
-    <a href="http://localhost:63342/FinalProject/drones.html"><button class="buttons">Drones</button></a>
-    <a href="http://localhost:63342/FinalProject/index.html"><button class="buttons">Home</button></a>
-    <a href="http://localhost:63342/FinalProject/programming.html"><button class="buttons">Programming</button></a>
-    <a href="http://localhost:63342/FinalProject/hacking.html"><button class="buttons">Hacking</button></a>
+<!-- <a href="http://localhost:63342/FinalProject/drones.html"> -->
+
+<ul id="navBar">
+    <a href="http://localhost:63342/FinalProject/about.html"><li  class="buttons" >About Me
+        <ul>
+            <a href="http://localhost:63342/FinalProject/work.html"><li class="dropDownMenu">Work</li></a>
+            <a href="http://localhost:63342/FinalProject/school.html"><li class="dropDownMenu" id="dropDownItem" >School</li></a>
+
+        </ul>
+    </li ></a>
+
+    <li class="buttons">Drones
+        <ul>
+            <a href="http://localhost:63342/FinalProject/raspberrypi.html"><li class="dropDownMenu">Raspberry pi</li></a>
+
+        </ul>
+    </li>
+
+    <a href="http://localhost:63342/FinalProject/index.html"><li class="buttons" id="navBarItem3">Home</li></a>
+
+    <a href="http://localhost:63342/FinalProject/programming.html"><li class="buttons" id="navBarItem4">Programming
+        <ul>
+            <a href="http://localhost:63342/FinalProject/futurelanguages.html"><li class="dropDownMenu">Future Languages</li></a>
+
+        </ul>
+    </li></a>
+
+    <a href="http://localhost:63342/FinalProject/hacking.html"><li class="buttons" id="navBarItem5">Hacking</li></a>
+
     <h1 id="headerText">BLACKDARTQ</h1>
-</navbar>
+</ul>
 <!-- ------------------------------ body -------------------------------- -->
 <div id="Body">
     <section id="section1">
-        <p><pre></pre></p>
-
-
+        <h1>About me</h1>
+        <p>This is going to be the page about more of my thoughts more or less like a blog. I'm going to be dividing
+            this into a few different category's, like how my school and work are going to be in separate pages. </p>
+        <br><br><br>
+        <h2>Click the pictures bellow to learn more about them.</h2>
     </section>
+
     <section id="section2">
-        <p><pre></pre></p>
-
-
+        <a href="school.html"> <img src="Images/Northridge.jpg" width="25%" height="100%" alt="Northridge HighSchool" /></a>
+        <a href="school.html"> <img src="Images/broadview-university-orem-logo-13935.jpg" width="24%" height="100%" alt="Broadview University" /></a>
+        <a href="work.html"> <img src="Images/bluehost-m.png" width="25%" height="100%" alt="Bluehost" /></a>
+        <a href="work.html"> <img src="Images/office-depot_416x416.jpg" width="24%" height="100%" alt="Office Depot" /></a>
     </section>
+
     <section id="section3">
-        <p><pre></pre></p>
-
-
+        <br><br>
+        <p> &nbsp &nbsp I started out programming after I was using unity3D back when I was 17, though I had no experience I wanted to make a game
+        but its not the esaiest thing without nowing how to program at all.<br><br> &nbsp &nbsp That got me googling about what langauages
+            might be good for me to learn, which lead me to C++ which was the first langauge I ever learned. the reason for me
+            choosing that language from the many easier languages out there was because of the harsh learning curve and because of how
+            powerful it is. I knew if I liked C++ and could handle the learning curve that I would truely know if I liked programming.
+            <br><br> &nbsp &nbsp After that I took a few different web design classes where I worked with Dream weaver and other adobe software.
+            When I was in high school I took an advanced web design class, and a robotics class, which made it possible for me to make this site, and
+            made me want to get into the hobby of building drones.<br><br> &nbsp &nbsp When I'm not programming i'm usually reading, or playing guitar, though once and awhile
+            when its sunny outside i'll go skateboarding, and in the winter I like to go snowboarding.
+        </p>
     </section>
-    <section id="section4">
-        <p><pre></pre></p>
 
-
-    </section>
-    <section id="section5">
-        <p><pre></pre></p>
-
-
-    </section>
 
 
 

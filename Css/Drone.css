@@ -1,7 +1,9 @@
+
+
 #section1{
     display:inline-block;
-    width: 79%;
-    height: 29%;
+    width: 99.3%;
+    height: 40%;
     font-family: cursive;
     font-size: 1em;
     color: black;
@@ -10,10 +12,9 @@
 }
 
 #section2{
-    margin-right:.2%;
     display:inline-block;
-    width: 19%;
-    height: 99%;
+    width: 99.3%;
+    height: 10%;
     font-family: cursive;
     font-size: 1em;
     color: black;

@@ -1,4 +1,24 @@
+h1{
+    text-align: center;
+
+
+
+}
+
+p{
+    font-size: 1em;
+    font-family: cursive;
+
+}
+
+section{
+    margin-left: .1%;
+
+
+}
+
 #section1{
+    margin-top: 1px;
     display:inline-block;
     width: 79%;
     height: 29%;
@@ -10,6 +30,7 @@
 }
 
 #section2{
+    margin-top: 1px;
     margin-right:.2%;
     display:inline-block;
     width: 19%;
@@ -21,9 +42,11 @@
     border-style: solid;
     float:right;
 
+
 }
 
 #section3{
+    margin-top: 1px;
     margin-left: .5%;
     margin-bottom: .2%;
     display:inline-block;
@@ -38,7 +61,7 @@
 }
 
 #section4{
-
+    margin-top: 1px;
     margin-bottom: .2%;
     display:inline-block;
     width: 25%;
@@ -52,6 +75,7 @@
 
 }
 #section5 {
+    margin-top: 1px;
     margin-bottom: .2%;
     display: inline-block;
     width: 26%;
@@ -61,4 +85,5 @@
     color: black;
     background-color: darkgray;
     border-style: solid;
+
 }
