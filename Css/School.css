@@ -1,55 +1,51 @@
-.imgs{
-    margin-top: 10%;
+h1{
+    text-align: center;
 
+}
+h2{
+    text-align: center;
 
 }
 
-p{
-    margin-top: 10%;
-
-}
 
 #section1{
-    margin-left: 3px;
-    margin-top: 2px;
     display:inline-block;
-    width: 38.5%;
-    height: 99%;
-    font-family: sans-serif;
+    width: 99%;
+    height: 25%;
+    font-family: cursive;
     font-size: 1em;
     color: black;
     background-color: lightgrey;
     border-style: solid;
-    text-align: left;
-    vertical-align: top;
-
-
+    margin-left:2px;
+    margin-top:2px;
 }
 
 #section2{
-    margin-top:2px;
+    margin-right:.2%;
+    margin-top: 3px;
     display:inline-block;
-    width: 20%;
-    height: 99%;
+    width: 99%;
+    height: 10%;
     font-family: cursive;
     font-size: 1em;
     color: black;
     background-color: whitesmoke;
     border-style: solid;
-    vertical-align: top;
+    float:right;
 
 }
 
 #section3{
-    margin-left: 1px;
-    margin-top: .2%;
+    margin-left: .5%;
+    margin-top: 3px;
     display:inline-block;
-    width: 38%;
-    height:99%;
+    width: 98.4%;
+    height:60%;
     font-family: cursive;
     font-size: 1em;
     color: black;
     background-color: darkgray;
     border-style: solid;
-    vertical-align: top;
+
 }
